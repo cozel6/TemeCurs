@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Exercitii 3 Methods/1.0.0": {
+        "runtime": {
+          "Exercitii 3 Methods.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercitii 3 Methods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
