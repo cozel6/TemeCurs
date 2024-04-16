@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         string email = "awesome@dotnet.com";
-        string obfuscatedEmail = ObfuscateEmail2(email);
+        string obfuscatedEmail = ObfuscateEmail(email);
         Console.WriteLine(obfuscatedEmail);
     }
     static string ObfuscateEmail(string email)
