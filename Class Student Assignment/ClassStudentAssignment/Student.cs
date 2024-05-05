@@ -13,7 +13,6 @@ namespace ClassStudentAssignment
         private string _name;
 
         //Constants
-
         public const int MIN_AGE = 18;
         public const int MAX_AGE = 99;
 
@@ -26,11 +25,12 @@ namespace ClassStudentAssignment
                 if(value <  MIN_AGE || value > MAX_AGE)
                 {
                     Console.WriteLine($"Incorect value, min is {MIN_AGE} and max is {MAX_AGE},please enter the right value");
+                    return;
                 }
                 _age = value;
             }
         }
-        public int Mark {  get; set; }
+        public int? Mark {  get; set; }
 
         //Constructor
         public Student(int age, string name)
@@ -38,6 +38,7 @@ namespace ClassStudentAssignment
             Age = age;
             _name = name;
         }
+
         //ReadOnly Propery
         public string Info
         {
