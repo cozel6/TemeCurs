@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogValidation", "DogValidation.csproj", "{9E66F342-14BD-4D17-B752-75E41DF10E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E66F342-14BD-4D17-B752-75E41DF10E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E66F342-14BD-4D17-B752-75E41DF10E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E66F342-14BD-4D17-B752-75E41DF10E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E66F342-14BD-4D17-B752-75E41DF10E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EBB4EBE-20A9-45FF-8A46-F4C31E16E9DA}
+	EndGlobalSection
+EndGlobal
